@@ -1,17 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat|Open+Sans|Raleway|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Luckiest+Guy|Raleway');
 .header {
     background-image: 
     url("./images/red_kazoobie_large.jpg");
    background-repeat: repeat;
-   font-family: 'Raleway', sans-serif;
-    color: black;
+   font-family: 'Luckiest Guy', sans-serif;
+   text-shadow: 5px 5px white;
+    color: #1C143F;
     text-align: center;
     width: 100%;
     height: 200px;
     margin: auto;
-    font-size: 30px;
-}
+    font-size: 40px;
+  
+    /* display:flex; */
+    Overflow: hidden;
 
+}
+.shrink {
+    flex-shrink: 2;
+}
 .flexRow {
     display: flex;
     flex-flow: row wrap;
@@ -33,6 +40,7 @@
 .flexCol {
     display: flex;
     flex-flow: column wrap;
+    align-content: space-evenly; 
     width:100%;
 }
 .flexColA {
@@ -48,6 +56,8 @@
 }
 .asideDivWidth {
     width: 100px;
+    padding-top:3px;
+    padding-bottom:3px; 
 }
 .clear {
     clear: both;
@@ -59,23 +69,29 @@
     padding-right:10px;
     padding-left:10px;
     text-align: center;
-    background-color: #FF521B;
-    color: black;
-    font-family: 'Raleway', sans-serif;
+    background-color: #FF7044;
+    color: #1C143F;
+    /* font-family: 'Raleway', sans-serif; */
     text-decoration: none;
+    font-family: 'Luckiest Guy', sans-serif;
+    text-shadow: 2px 2px 1px white;
+    box-shadow: 2px 2px 1px #C7C78F;
+    letter-spacing: 1px;
 }
 .active {
-    background-color: #FC9E4F;
+    background-color: #FFC53A;
 }
 
 .navItem:hover {
-    background-color:#FFC53A;
+    background-color:#FAFF81;
 }
+
 .footer {
     width: 100%;
     padding: 20px;
-    background-color: #FF521B;
+    background-color: #FF7044;
     margin-top: 20px;
+    color: #1C143F;
 }
 .footerImg {
 max-width: 150px;
@@ -85,11 +101,11 @@ margin: auto;
 }
 .smallDecText{
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
 }
 .largeDecText{
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     font-size: 30px;
 }
 
@@ -97,34 +113,44 @@ margin: auto;
 background-color: #F2F3AE;
 }
 .mainDivStyle {
-    flex-grow: 1;
-    flex-basis: calc(33% - 50px);
+    flex-grow:1;
+    flex-basis: calc(25% - 50px);
     margin: 5px;
     padding-right:10px;
     padding-left:10px;
     text-align: center;
     background-color: white;
-    color: black;
+    color: #1C143F;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    box-shadow: 1px 1px 1px #C7C78F;
 }
 
 .asideDivStyle {
-    background-color: white;
     flex-grow: 1;
     flex-basis: calc(20% - 0px);
     margin: 5px;
-    padding-top:3px;
-    padding-bottom:3px; 
     text-align: center;
     background-color: #FFC53A;
-    color: black;
-    font-family: 'Raleway', sans-serif;
+    box-shadow: 1px 1px 1px #C7C78F;
+}
+.asideFont {
+    color: #2A2833;
+    font-family: 'Luckiest Guy', sans-serif;
+    text-shadow: 2px 1px white;
     text-decoration: none;
+    letter-spacing: 1px;
+    padding-top:10px;
+    padding-bottom:3px; 
+}
 
+.asidePadding {
+    padding-top:10px;
+    padding-bottom:3px; 
 }
 .asideWidth {
     width: calc(100% - 12px);
+
 }
 .imgSale {
     width: 150px;
