@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat|Open+Sans|Raleway|Roboto+Condensed');
+.header {
+    background-color: #FF521B;
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    text-align: center;
+    width:100%;
+}
+.flexRow {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly; 
+    width:100%;
+}
+.flexRowM {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly; 
+    width: 70%
+}
+.floatLeft {
+    float:left;
+}
+.floatRight {
+    float: right;
+}
+.flexCol {
+    display: flex;
+    flex-flow: column wrap;
+    width:100%;
+}
+.flexColA {
+    display: flex;
+    flex-flow: column wrap;
+    width:30%;
+}
+.clear {
+    clear: both;
+}
+.navItem {
+    flex-grow: 1;
+    flex-basis: calc(33% - 30px);
+    margin: 5px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align: center;
+    background-color: #FF521B;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+.active {
+    background-color: #FC9E4F;
+}
+/* .navItem:not(.active){
+    background-color:#EDD382;
+} */
+.navItem:not(.active) {
+    background-color:#FF521B;
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #FF521B;
+    margin-top: 20px;
+}
+.footerImg {
+max-width: 150px;
+clear: top; 
+margin: 5px;
+}
+.smallDecText{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.largeDecText{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+.bodyStyle{
+background-color: #F2F3AE;
+}
+.mainDivStyle {
+    flex-grow: 1;
+    flex-basis: calc(50% - 30px);
+    margin: 5px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align: center;
+    background-color: #FFC53A;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.asideDivStyle {
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: calc(30% - 30px);
+    margin: 5px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+}
