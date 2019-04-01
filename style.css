@@ -165,7 +165,7 @@ background-color: #F2F3AE;
     margin: 10px;
 }
 .imgSale:hover {
-    flex-grow: 3;
+    transform: scale(1.5);
 }
 .heightItem {
     height: 350px; 
